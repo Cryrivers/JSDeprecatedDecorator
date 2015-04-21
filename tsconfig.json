@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "../dist/deprecated.js",
+        "sourceMap": true,
+    },
+    "files": [
+        "deprecated.ts"
+    ]
+}
