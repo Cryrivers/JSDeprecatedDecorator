@@ -6,7 +6,7 @@ function deprecated (deprecatedVersion?:string, removeVersion?:string, memo?: st
 
     if(deprecatedVersion)
     {
-        message[0] = message[0].substring(0, message[0].length - 2) + ` at version %c${deprecatedVersion}%c. `;
+        message[0] = message[0].substring(0, message[0].length - 2) + ` since version %c${deprecatedVersion}%c. `;
         message.push(cssVersion, cssDefault);
     }
 
